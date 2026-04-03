@@ -7,6 +7,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+
 // Serve static files (like images) from the "public/images" directory
 app.use("/images", express.static("src/public/images"));
 

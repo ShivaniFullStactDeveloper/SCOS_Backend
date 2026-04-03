@@ -35,7 +35,7 @@ export const createUserModel = async (userData) => {
 };
 
 
-//  Find user by email (used in login later)
+//  Find user by email
 export const findUserByEmail = async (email) => {
   const result = await pool.query(
     "SELECT * FROM users WHERE email = $1",

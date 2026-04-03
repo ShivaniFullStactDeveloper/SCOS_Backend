@@ -64,7 +64,6 @@ export const getRoles = async (req, res, next) => {
 
 // DELETE ROLE
 // This API deletes a role using ID
-
 export const deleteRole = async (req, res, next) => {
   try {
     const { id } = req.params;

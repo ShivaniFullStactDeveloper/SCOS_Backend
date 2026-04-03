@@ -10,7 +10,6 @@ export const login = async (req, res, next) => {
     const { email, password } = req.body;
 
     const user = await findUserByEmail(email);
-
     if (!user) {
       return res.status(400).json({
         success: false,
