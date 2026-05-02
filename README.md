@@ -1,4 +1,4 @@
-# SCOS Backend API Documentation
+# SCOS Backend API 
 
 ## Project Overview
 
